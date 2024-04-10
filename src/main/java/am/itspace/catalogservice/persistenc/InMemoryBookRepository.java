@@ -11,6 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Repository
 public class InMemoryBookRepository implements BookRepository {
 
+
     private static final Map<String, Book> books = new ConcurrentHashMap<>();
 
     @Override

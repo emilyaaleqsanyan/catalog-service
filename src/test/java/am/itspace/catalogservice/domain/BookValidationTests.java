@@ -78,6 +78,7 @@ public class BookValidationTests {
                 .isEqualTo("The book price must be defined.");
     }
 
+
     @Test
     void whenPriceDefinedButZeroThenValidationFails() {
         var book = new Book("1234567890", "Title", "Author", 0.0);

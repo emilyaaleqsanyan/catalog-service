@@ -16,6 +16,7 @@ class BookJsonTests {
     @Autowired
     private JacksonTester<Book> json;
 
+
     @Test
     void testSerialize() throws Exception {
         var book = new Book("1234567890", "Title", "Author", 9.90);

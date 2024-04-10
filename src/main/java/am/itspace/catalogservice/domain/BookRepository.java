@@ -11,6 +11,5 @@ public interface BookRepository {
     boolean existsByIsbn(String isbn);
 
     Book save(Book book);
-
     void deleteByIsbn(String isbn);
 }
